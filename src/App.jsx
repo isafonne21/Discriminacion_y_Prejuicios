@@ -7,7 +7,7 @@ import Profile from "./paginas/Profile";
 import Contactanos from "./paginas/Contactanos";
 import QS from "./paginas/qs";
 import Cursos from "./paginas/cursos";
-
+import Blog from "./paginas/blog";
 
 export default function App() {
   return (
@@ -22,8 +22,7 @@ export default function App() {
         <Route exact path="/profile_l" element={<Contactanos />} />
         <Route exact path="/qs" element={<QS />} />
         <Route exact path="/cursos" element={<Cursos />} />
-        
-
+        <Route exact path="/Blog" element= {<Blog />} />
         
       </Routes>
     </Router>
